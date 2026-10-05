@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="armGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Icon Container -->
+  <rect width="100" height="100" rx="22" fill="url(#bgGrad)"/>
+  <rect x="3" y="3" width="94" height="94" rx="19" fill="none" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.3"/>
+
+  <!-- Crawler Track Base -->
+  <rect x="18" y="70" width="64" height="16" rx="8" fill="#334155" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="28" cy="78" r="4" fill="#94a3b8"/>
+  <circle cx="42" cy="78" r="4" fill="#94a3b8"/>
+  <circle cx="58" cy="78" r="4" fill="#94a3b8"/>
+  <circle cx="72" cy="78" r="4" fill="#94a3b8"/>
+
+  <!-- Main Body Cabin -->
+  <path d="M 28 70 L 32 46 L 56 46 L 60 70 Z" fill="url(#goldGrad)" />
+  <!-- Cabin Window -->
+  <path d="M 36 50 L 52 50 L 50 62 L 36 62 Z" fill="#0f172a" stroke="#64748b" stroke-width="1.5"/>
+
+  <!-- Excavator Boom & Arm -->
+  <path d="M 54 54 L 72 32 L 68 28 L 48 52 Z" fill="url(#armGrad)" />
+  <path d="M 70 30 L 84 48 L 78 52 L 66 34 Z" fill="url(#goldGrad)" />
+
+  <!-- Bucket -->
+  <path d="M 82 48 L 92 56 L 86 66 L 76 60 Z" fill="#475569" stroke="#f59e0b" stroke-width="1.5" />
+  <!-- Bucket Teeth -->
+  <polygon points="92,56 95,58 92,60" fill="#f59e0b" />
+  <polygon points="90,61 93,63 90,65" fill="#f59e0b" />
+</svg>
